@@ -14,7 +14,7 @@
 - バージョン: 7.2.0
 
 ### 3. データベースのセットアップ ✅
-- SQLiteデータベース (`prisma/dev.db`) が作成されました
+- SQLiteデータベース (`dev.db`) が作成されました
 - 初期マイグレーション (`20260101053208_init`) が適用されました
 - Todoテーブルが作成されました
 
@@ -96,7 +96,7 @@ npm install
 ### データベースエラーが発生する場合
 ```bash
 # データベースを削除して再作成
-rm prisma/dev.db
+rm dev.db
 npx prisma migrate deploy
 ```
 
